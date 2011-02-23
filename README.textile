@@ -21,6 +21,10 @@ h3. speed
 
 This is the speed at which the image will fade in, after downloading is complete. Integers are accepted, as well as standard jQuery speed strings (slow, normal, fast). (type=Integer, default=0)
 
+h3. minW
+
+The minimum width (in pixels) that you would like the image to scale down to. Once this dimension is reached, the image will no longer scale with the browser window resizing.
+
 
 h2. Setup
 
